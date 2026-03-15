@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AlertDialog 对话框演示"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnSimple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. 简单消息对话框" />
+
+    <Button
+        android:id="@+id/btnConfirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2. 确认对话框" />
+
+    <Button
+        android:id="@+id/btnList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3. 列表对话框" />
+
+    <Button
+        android:id="@+id/btnSingleChoice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4. 单选对话框" />
+
+    <Button
+        android:id="@+id/btnMultiChoice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="5. 多选对话框" />
+
+    <Button
+        android:id="@+id/btnInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="6. 输入框对话框" />
+
+    <Button
+        android:id="@+id/btnCustom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="7. 自定义布局对话框" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="结果："
+        android:textStyle="bold"
+        android:paddingTop="24dp" />
+
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点击按钮查看结果"
+        android:textSize="16sp"
+        android:padding="8dp" />
+
+</LinearLayout>
