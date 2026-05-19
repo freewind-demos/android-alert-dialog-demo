@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "demos.android.alert.dialog.demo.app-mergeDebugResources-30:/layout/dialog_custom.xml",
+        "source": "demos.android.alert.dialog.demo.app-main-33:/layout/dialog_custom.xml"
+    },
+    {
+        "merged": "demos.android.alert.dialog.demo.app-mergeDebugResources-30:/layout/activity_main.xml",
+        "source": "demos.android.alert.dialog.demo.app-main-33:/layout/activity_main.xml"
+    }
+]

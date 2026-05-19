@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'demos'
+    namespace 'demos.android.alert.dialog.demo'
     compileSdk 34
 
     defaultConfig {
-        applicationId "demos"
+        applicationId "demos.android.alert.dialog.demo"
         minSdk 24
         targetSdk 34
     }
